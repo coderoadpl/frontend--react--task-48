@@ -2,11 +2,11 @@ import React from 'react'
 
 export const Item = () => {
   return (
-    <div>
-      <div>Item 1</div>
-      <div>Item 2</div>
-      <div>Item 3</div>
-    </div>
+    [
+      <div key={'1'}>Item 1</div>,
+      <div key={'2'}>Item 2</div>,
+      <div key={'3'}>Item 3</div>
+    ]
   )
 }
 
