@@ -1,14 +1,13 @@
 import React from 'react'
 
 import Container from './Container'
+import Items from './Items'
 
 export const App = () => {
   return (
     <div>
       <Container>
-        <div>Item 1</div>
-        <div>Item 2</div>
-        <div>Item 3</div>
+        <Items />
       </Container>
     </div>
   )
